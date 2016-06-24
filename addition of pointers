@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int a,b;
+int *p,*q,sum;
+printf("\n enter two numbers a and b");
+scanf("%d %d",&a,&b);
+p=&a;
+q=&b;
+sum=*p+*q;
+printf("\n sum of numbers :%d",sum);
+return 0;
+}
